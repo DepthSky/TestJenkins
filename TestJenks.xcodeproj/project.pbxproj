@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049C16821C05B95B00A892DE /* bg_landing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049C16811C05B95B00A892DE /* bg_landing.jpg */; };
 		04C699E31C0449F000C00B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C699E21C0449F000C00B4B /* main.m */; };
 		04C699E61C0449F000C00B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C699E51C0449F000C00B4B /* AppDelegate.m */; };
 		04C699E91C0449F000C00B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C699E81C0449F000C00B4B /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049C16811C05B95B00A892DE /* bg_landing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_landing.jpg; sourceTree = "<group>"; };
 		04C699DD1C0449F000C00B4B /* TestJenks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJenks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C699E11C0449F000C00B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C699E21C0449F000C00B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		04C699DF1C0449F000C00B4B /* TestJenks */ = {
 			isa = PBXGroup;
 			children = (
+				049C16811C05B95B00A892DE /* bg_landing.jpg */,
 				04C699E41C0449F000C00B4B /* AppDelegate.h */,
 				04C699E51C0449F000C00B4B /* AppDelegate.m */,
 				04C699E71C0449F000C00B4B /* ViewController.h */,
@@ -201,6 +204,7 @@
 			files = (
 				04C699EC1C0449F000C00B4B /* Main.storyboard in Resources */,
 				04C699F11C0449F000C00B4B /* LaunchScreen.xib in Resources */,
+				049C16821C05B95B00A892DE /* bg_landing.jpg in Resources */,
 				04C699EE1C0449F000C00B4B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
