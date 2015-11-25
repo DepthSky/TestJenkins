@@ -14,8 +14,6 @@
 		04C699EE1C0449F000C00B4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C699ED1C0449F000C00B4B /* Images.xcassets */; };
 		04C699F11C0449F000C00B4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C699EF1C0449F000C00B4B /* LaunchScreen.xib */; };
 		04C699FD1C0449F000C00B4B /* TestJenksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C699FC1C0449F000C00B4B /* TestJenksTests.m */; };
-		04C69A081C046D6500C00B4B /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 04C69A061C046D6500C00B4B /* Makefile */; };
-		04C69A091C046D6500C00B4B /* Makefile.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 04C69A071C046D6500C00B4B /* Makefile.cfg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +40,6 @@
 		04C699F61C0449F000C00B4B /* TestJenksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestJenksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C699FB1C0449F000C00B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C699FC1C0449F000C00B4B /* TestJenksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJenksTests.m; sourceTree = "<group>"; };
-		04C69A061C046D6500C00B4B /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		04C69A071C046D6500C00B4B /* Makefile.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.cfg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +81,6 @@
 		04C699DF1C0449F000C00B4B /* TestJenks */ = {
 			isa = PBXGroup;
 			children = (
-				04C69A061C046D6500C00B4B /* Makefile */,
-				04C69A071C046D6500C00B4B /* Makefile.cfg */,
 				04C699E41C0449F000C00B4B /* AppDelegate.h */,
 				04C699E51C0449F000C00B4B /* AppDelegate.m */,
 				04C699E71C0449F000C00B4B /* ViewController.h */,
@@ -205,7 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C69A091C046D6500C00B4B /* Makefile.cfg in Resources */,
 				04C699EC1C0449F000C00B4B /* Main.storyboard in Resources */,
 				04C699F11C0449F000C00B4B /* LaunchScreen.xib in Resources */,
 				04C699EE1C0449F000C00B4B /* Images.xcassets in Resources */,
@@ -228,7 +221,6 @@
 			files = (
 				04C699E91C0449F000C00B4B /* ViewController.m in Sources */,
 				04C699E61C0449F000C00B4B /* AppDelegate.m in Sources */,
-				04C69A081C046D6500C00B4B /* Makefile in Sources */,
 				04C699E31C0449F000C00B4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
